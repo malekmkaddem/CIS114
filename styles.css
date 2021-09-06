@@ -1,0 +1,255 @@
+/* Desktop version*/
+
+body{
+     font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+    width:100%;
+   
+
+}
+#menuicon{
+    position: absolute;
+    bottom: 93.75%;
+    right: 91%;
+}
+#home{
+    position: absolute;
+    font-family: 'Alegreya Sans SC';
+    color: black;
+    font-size: 23px;
+      bottom: 94.5%;
+    right: 83.5%;
+}
+#coursename{
+    font-family: 'Alegreya Sans SC';
+    position: absolute;
+    bottom: 87.5%;
+    left: 37.5%;
+    font-size: 36px;
+    
+}
+#name{
+    font-family: 'Alegreya Sans SC';
+  position: absolute;
+    left: 85%;
+    bottom: 90.5%;
+    font-size: 23px;
+}
+#search{
+     position: absolute;
+    left: 82%;
+    bottom: 94.80%;
+    
+}
+
+#image{
+    background-color: #f5f5f5;
+    padding-left: 2.3%;
+    padding-right: 2;
+    display: flex;
+}
+
+#topbox{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    box-sizing:content-box;
+    width: 1310px;
+    height:53px;
+    padding-left:1.5%;
+    padding-right:1.5%;
+
+}
+
+#p1{
+     font-family: 'Alegreya Sans SC';
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+    font-size: 33px;  
+}
+#p2{
+        font-family: 'Alegreya Sans SC';
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    font-size: 17px;
+}
+#p3{
+        font-family: 'Alegreya Sans SC';
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    font-size: 18px;
+    
+}
+#p4{
+       font-family: 'Alegreya Sans SC';
+    position: absolute;
+    bottom: -38%;
+    left: 37%;
+    font-size: 26.5px; 
+}
+#line{
+    position:absolute;
+    bottom: -50%;
+    left: 37.5%;
+    width: 320px;
+    height: auto;
+}
+
+a{
+    font-family: 'Alegreya Sans SC';
+}
+h1{
+    color:black;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+    font-size: 23px;
+    
+}
+
+#hw2{
+    grid-area: hw2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    
+    padding-top: 14%;
+    
+}
+
+#hw3{
+    grid-area: hw3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    background-color: #f5f5f5;
+    padding-top: 14%;
+}
+
+#hw4{
+    grid-area: hw4;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    
+    padding-top: 14%;
+}
+#hw5{
+    grid-area: hw5;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    
+    padding-top: 14%;
+}
+
+#hw6{
+    grid-area: hw6;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    
+    padding-top: 14%;
+}
+
+#hw7{
+    grid-area: hw7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    
+    padding-top: 14%;
+}
+
+
+#hw8{
+    grid-area: hw8;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 300px;
+    height: 100px;
+    padding-top: 6%;
+    
+    
+    
+}
+#hw2 , #hw3 , #hw4 , #hw5 , #hw6, #hw7, #hw8{
+    background-color: #d9d9d9;
+}
+div.wrapper{
+    height: 650px;
+    width: 650px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    text-align: center;
+ 
+}
+
+#wrapper2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+   
+    height: 200px;
+    width: 220px;
+    left: 40%;
+    right: 20%;
+    top: 50%;
+    bottom: 20%;
+    grid-area: wrapper2;
+   
+    
+}
+#mainwrapper{
+    padding-top: 20%;
+    padding-left: 5%;
+     background-color:#f5f5f5;
+    display: grid;
+    grid-row-gap: 1em;
+    grid-column-gap: 16em;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 0fr;
+    grid-template-areas: 
+        'wrapper wrapper2'
+        ;
+}
+
+
+.wrapper{
+    grid-area: wrapper;
+    display: grid;
+    width: 70%;
+    height: auto;
+    grid-row-gap: 2em;
+    grid-column-gap: 3.5em;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 0fr;
+    grid-template-areas: 
+        'hw2 hw3 '
+        'hw4 hw5'
+        'hw6 hw7'
+        'hw8 hw8'
+        ;
+    
+}
+#quotes{
+    font-family: 'Alegreya Sans SC';
+    font: 22px;
+    background: #d1d1d1;
+    
+    
+}
+#quotelogo{
+    width: 220px;
+    height: 200px;
+    position: absolute;
+    
+}
+
+
+
+/*Mobile Version*/
