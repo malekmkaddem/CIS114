@@ -8,21 +8,25 @@ body{
 
 }
 #menuicon{
-    position:relative;
+    position: absolute;
     bottom: 93.75%;
     right: 91%;
+     z-index: -1;
 }
 #home{
-    position: relative;
+    position: absolute;
+     z-index: -1;
     font-family: 'Alegreya Sans SC';
     color: black;
     font-size: 23px;
       bottom: 94.5%;
     right: 83.5%;
+    
 }
 #coursename{
     font-family: 'Alegreya Sans SC';
     position: absolute;
+     z-index: -1;
     bottom: 87.5%;
     left: 37.5%;
     font-size: 36px;
@@ -30,13 +34,15 @@ body{
 }
 #name{
     font-family: 'Alegreya Sans SC';
-  position: relative;
+  position: absolute;
+     z-index: -1;
     left: 85%;
     bottom: 90.5%;
     font-size: 23px;
 }
 #search{
-     position: relative;
+     position: absolute;
+     z-index: -1;
     left: 82%;
     bottom: 94.80%;
     
@@ -61,21 +67,24 @@ body{
 
 #p1{
      font-family: 'Alegreya Sans SC';
-    position: relative;
+    position: absolute;
+     z-index: -1;
     bottom: -20%;
     left: 10%;
     font-size: 33px;  
 }
 #p2{
         font-family: 'Alegreya Sans SC';
-    position: relative;
+    position: absolute;
+     z-index: -1;
     bottom: -12%;
     left: 50%;
     font-size: 17px;
 }
 #p3{
         font-family: 'Alegreya Sans SC';
-    position: relative;
+    position: absolute;
+     z-index: -1;
     bottom: -20%;
     left: 50%;
     font-size: 18px;
@@ -83,13 +92,15 @@ body{
 }
 #p4{
        font-family: 'Alegreya Sans SC';
-    position:relative;
+    position: absolute;
+     z-index: -1;
     bottom: -38%;
     left: 37%;
     font-size: 26.5px; 
 }
 #line{
-    position:relative;
+    position:absolute;
+     z-index: -1;
     bottom: -50%;
     left: 37.5%;
     width: 320px;
@@ -246,7 +257,8 @@ div.wrapper{
 #quotelogo{
     width: 220px;
     height: 200px;
-    position: relative;
+    position: absolute;
+     z-index: -1;
     
 }
 
