@@ -8,12 +8,12 @@ body{
 
 }
 #menuicon{
-    position: absolute;
+    position:relative;
     bottom: 93.75%;
     right: 91%;
 }
 #home{
-    position: absolute;
+    position: relative;
     font-family: 'Alegreya Sans SC';
     color: black;
     font-size: 23px;
@@ -30,13 +30,13 @@ body{
 }
 #name{
     font-family: 'Alegreya Sans SC';
-  position: absolute;
+  position: relative;
     left: 85%;
     bottom: 90.5%;
     font-size: 23px;
 }
 #search{
-     position: absolute;
+     position: relative;
     left: 82%;
     bottom: 94.80%;
     
@@ -61,21 +61,21 @@ body{
 
 #p1{
      font-family: 'Alegreya Sans SC';
-    position: absolute;
+    position: relative;
     bottom: -20%;
     left: 10%;
     font-size: 33px;  
 }
 #p2{
         font-family: 'Alegreya Sans SC';
-    position: absolute;
+    position: relative;
     bottom: -12%;
     left: 50%;
     font-size: 17px;
 }
 #p3{
         font-family: 'Alegreya Sans SC';
-    position: absolute;
+    position: relative;
     bottom: -20%;
     left: 50%;
     font-size: 18px;
@@ -83,13 +83,13 @@ body{
 }
 #p4{
        font-family: 'Alegreya Sans SC';
-    position: absolute;
+    position:relative;
     bottom: -38%;
     left: 37%;
     font-size: 26.5px; 
 }
 #line{
-    position:absolute;
+    position:relative;
     bottom: -50%;
     left: 37.5%;
     width: 320px;
@@ -246,7 +246,7 @@ div.wrapper{
 #quotelogo{
     width: 220px;
     height: 200px;
-    position: absolute;
+    position: relative;
     
 }
 
