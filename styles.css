@@ -1,9 +1,14 @@
 /* Desktop version*/
-
+@media (min-width:600px) {
 body{
      font-family: 'Alegreya Sans SC';
-    font-size: 22px;
-    width:100%;
+    font-size: 100%;
+    width: 600px;
+    min-width: 480px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
    
 
 }
@@ -11,26 +16,26 @@ body{
     position: absolute;
     bottom: 93.75%;
     right: 91%;
-     z-index: -1;
+    width: 10%;
+    
 }
 #home{
     position: absolute;
-     z-index: -1;
     font-family: 'Alegreya Sans SC';
     color: black;
     font-size: 23px;
       bottom: 94.5%;
     right: 83.5%;
+    width: 10%;
     
 }
 #coursename{
     font-family: 'Alegreya Sans SC';
     position: absolute;
-     z-index: -1;
     bottom: 87.5%;
     left: 37.5%;
-    font-size: 36px;
-    
+    font-size:210%;
+    width: 70%;
 }
 #name{
     font-family: 'Alegreya Sans SC';
@@ -39,6 +44,7 @@ body{
     left: 85%;
     bottom: 90.5%;
     font-size: 23px;
+    width: 10%;
 }
 #search{
      position: absolute;
@@ -100,10 +106,10 @@ body{
 }
 #line{
     position:absolute;
-     z-index: -1;
-    bottom: -50%;
+    
+    padding-bottom:-50%;
     left: 37.5%;
-    width: 320px;
+    width: 280px;
     height: auto;
 }
 
@@ -251,17 +257,20 @@ div.wrapper{
     font-family: 'Alegreya Sans SC';
     font: 22px;
     background: #d1d1d1;
-    
+     
     
 }
 #quotelogo{
     width: 220px;
     height: 200px;
     position: absolute;
-     z-index: -1;
+   
     
+}
 }
 
 
-
 /*Mobile Version*/
+@media screen (min-width:380px){
+  
+}
